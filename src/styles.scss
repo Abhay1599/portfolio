@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+// src/styles.scss
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+// Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Flowbite
+@import '../node_modules/flowbite/dist/flowbite.min.css';
+
+// Your custom styles go here
